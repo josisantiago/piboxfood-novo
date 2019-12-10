@@ -1,0 +1,297 @@
+* {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+nav {
+    border-bottom: 3px solid yellow;
+}
+
+.navbar {
+    padding-bottom: 15px;
+    margin-top: -38px; 
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+    display: flex;
+}
+
+.redes {
+    margin-top: 10px;
+    display: flex;
+}
+
+.carousel-item {
+    height: 205px;
+    object-fit: cover;
+    border-bottom: 3px solid  yellow; 
+}
+
+.carouselExampleControls {
+    height: 250px;
+}
+
+.logo {
+    width: 116px;
+    height: 75px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 1px;
+    box-shadow: 4px 4px 4px 2px gray;
+}
+
+.logo2 {
+    width: 138px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 7px 7px 7px 3px gray;
+    display: none;
+}
+
+.redes_link {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+
+.cta {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-produtos {
+    text-transform: uppercase;
+    background-color: rgb(160, 7, 7);
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 11px;
+    text-align: center;
+}
+
+.p_cta-produtos {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.cta-produtos:hover {
+    background-color: #36AC31;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* .navbar-nav {
+
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+} */
+
+#navbarNavAltMarkup img {
+    width: 32px;
+    padding: 3px; 
+}
+
+.cardapio {
+    height: 300px;
+}
+
+.cardapio_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardapio2 {
+    width: 100vw;
+    height: 302px;
+    display: flex;
+    border-bottom: 3px solid  yellow;
+}
+
+/*para colocar no 768
+/* .cardapio2 {
+    margin: 10px 0;
+    width: 50vw;
+    height: 282px;
+    display: flex;
+} */
+
+.cardapio3 {
+    margin: 5px 5px;
+    height: 70px;
+    display: flex;
+}
+
+.cardapio_opcoes {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    color:white;
+    text-align: left;
+    padding: 5px;  
+}
+
+.link {
+    background-color: rgb(160, 7, 7);
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.container_mae {
+    height: 16vh;   
+    width: 100vw;
+    background-color: rgb(247, 247, 171);
+    box-sizing: content-box;
+}
+
+.container {  
+    color: rgb(160, 7, 7);
+    padding-top: 20px;
+    width: 100vw;
+    margin-right: 40px;
+    margin-left: -24px; 
+    border-top: 3px solid  yellow;
+}
+
+h2 {
+    font-size: 20px !important;
+    color: rgb(160, 7, 7);
+    text-align: center;
+    line-height: 2.5;
+}
+h3 {
+    font-size: 1.4rem !important;
+    }
+
+p {
+    font-size: 10px;
+}
+
+.formas {
+    color:rgb(160, 7, 7);
+    line-height: 1.0;
+    width: 40vw;
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 35px; 
+}
+
+.formas > p{
+    font-size: 1.2rem;
+}
+
+
+.bandeiras {
+    width: 60%;
+    border-radius: 10px;
+    padding: -17px;
+}
+
+footer {
+    background-color: white;
+    font-size: 12px;
+    border-top: 3px solid  yellow;
+    padding-top: 10px;
+    text-align: center; 
+}
+
+footer > p {
+    color: #212529;
+    font-size: 10px;
+    }
+
+    /* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+    .cta {
+        margin-bottom: 15%;
+    }
+    
+    .p_cta-produtos {
+        padding: 20px;
+        margin-top: 50px;
+        text-align: center; 
+    }
+
+    .logo2 {
+        display: none;
+    }
+
+    .cardapio_opcoes {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .cardapio_container {
+        flex-direction: row;
+    }
+
+    .trajetoria-foto {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    }
+}
+
+@media (max-width: 540px) {
+    .cta {
+        margin-bottom: 20%;
+    }
+}
+
+@media (max-width: 440px) {
+    .logo2 {
+        display: none;
+    } 
+}
+
+
+
+/* MEDIA QUERIES DA NAV */
+@media (min-width: 500px) {
+    .block-min-width-500 {
+        display: none;
+    }
+}
+
+@media (min-width: 362px) {
+    .block-max-width-500 {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .block-max-width-992 {
+        display: none;
+    }
+}
+

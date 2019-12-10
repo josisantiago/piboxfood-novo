@@ -167,19 +167,19 @@ nav {
 }
 
 .container_mae {
-    height: 16vh;   
+    height: 25vh;   
     width: 100vw;
     background-color: rgb(247, 247, 171);
     box-sizing: content-box;
+    align-items: center;
 }
 
-.container {  
+.container {
     color: rgb(160, 7, 7);
     padding-top: 20px;
     width: 100vw;
     margin-right: 40px;
-    margin-left: -24px; 
-    border-top: 3px solid  yellow;
+    border-top: 3px solid yellow;
 }
 
 h2 {

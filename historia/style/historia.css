@@ -64,6 +64,13 @@ nav {
     padding: 3px; 
 }
 
+.trajetoria-foto__imagem {
+    width: 100vw;
+    height: 480px;
+    display: flex;
+    margin-left: -17px;
+}
+
 .cta {
     margin-top: 5%;
     margin-bottom: 10%;
@@ -86,7 +93,7 @@ nav {
 .p_cta-produtos {
     flex-direction: column;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 24px;
     text-align: center; 
 }
 
@@ -115,7 +122,7 @@ nav {
 }
 
 h2 {
-    font-size: 20px !important;
+    font-size: 20px;
     color: rgb(160, 7, 7);
     text-align: center;
     line-height: 2.5;
@@ -175,14 +182,14 @@ footer > p {
 
 
 /* MEDIA QUERIES */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .cta {
         margin-bottom: 15%;
     }
 
     .p_cta-produtos {
         padding: 20px;
-        margin-top: 50px;
+        margin-top: 24px;
         text-align: center; 
     }
 
@@ -197,17 +204,17 @@ footer > p {
     }
 
     .trajetoria-foto__imagem {
-        width: 312px;
-        height: 480px;
-        display: flex;
-        align-items: center; 
-        margin-left: -35px;
-}
+        margin-left: -191px;
+        height: 656px;
+    }
 
+    h2 {
+        font-size: 26px;
+    }
 
-.p_historia {
-    margin-top: 20px;
-} 
+    .p_historia {
+    margin-top: 10px;
+    } 
 
 }
 
@@ -222,15 +229,15 @@ footer > p {
         width: 90%;
     }
 
-    .trajetoria-foto__imagem {
+    /* .trajetoria-foto__imagem {
          width: 384px;  
          height: 424px;
          margin-left: -122px;
-    }
+    } */
 
-    h2 {
+    /* h2 {
         font-size: 15px;
-    }
+    } */
 
     p {
         margin: 0;
@@ -253,9 +260,9 @@ footer > p {
         font-size: 17px;
         }
     
-    .cta {
+    /* .cta {
         margin-bottom: 30%;
-    }
+    } */
 
     .logo2 {
         display: none;
@@ -283,10 +290,10 @@ footer > p {
     .block-max-width-992 {
         display: none;
     }
-    .trajetoria-foto__imagem {
+    /* .trajetoria-foto__imagem {
         width: 350px;
        
-    } 
+    }  */
 }
 
 /* BOTÃO SCROLL */

@@ -41,9 +41,6 @@ nav {
     border-bottom: 3px solid  yellow; 
 }
 
-.carouselExampleControls {
-    height: 250px;
-}
 
 .logo {
     width: 116px;
@@ -100,7 +97,6 @@ nav {
 }
 
 /* .navbar-nav {
-
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -149,7 +145,6 @@ nav {
 .cardapio_opcoes {
     display: flex;
     flex-direction: column;
-    font-family: 'Dancing Script', cursive;
     font-size: 18px;
     color:white;
     text-align: left;
@@ -232,10 +227,18 @@ footer > p {
     /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
+    .carousel-item {
+        height: 432px;
+    }
+
     .cta {
         margin-bottom: 15%;
     }
     
+    .cta-produtos {
+        font-size: 24px;
+    }
+
     .p_cta-produtos {
         padding: 20px;
         margin-top: 50px;
@@ -246,9 +249,17 @@ footer > p {
         display: none;
     }
 
+    .cardapio2 {
+        height: 430px;
+    }
     .cardapio_opcoes {
         flex-direction: column;
         display: flex;
+        padding: 5px;
+    }
+
+    .botao_cardapio {
+        margin-top: 135px;
     }
 
     .cardapio_container {
@@ -256,9 +267,9 @@ footer > p {
     }
 
     .trajetoria-foto {
-    width: 50%;
-    display: flex;
-    align-items: center;
+        width: 50%;
+        display: flex;
+        align-items: center;
     }
 }
 
@@ -294,4 +305,3 @@ footer > p {
         display: none;
     }
 }
-

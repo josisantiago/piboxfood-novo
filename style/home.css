@@ -125,7 +125,7 @@ nav {
     width: 100vw;
     height: 302px;
     display: flex;
-    border-bottom: 3px solid  yellow;
+    /* border-bottom: 3px solid  yellow; */
 }
 
 /*para colocar no 768
@@ -262,14 +262,53 @@ footer > p {
         margin-top: 135px;
     }
 
-    .cardapio_container {
-        flex-direction: row;
+    .container_mae {
+        height: 200px;
     }
+
+    /* .cardapio_container {
+        flex-direction: row;
+    } */
 
     .trajetoria-foto {
         width: 50%;
         display: flex;
         align-items: center;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .redes_link {
+        display: flex;
+        flex-direction: row;
+        padding: 4px;
+    }
+    
+    .cardapio_container {
+        display: flex;
+    }
+    
+    .cardapios {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .botao_cardapio {
+        width: 336px;
+        margin-top: 25px;
+    }
+
+    .cta-produtos {
+        font-size: 20px;
+    }
+
+    .cardapio2 {
+        width: 50vw;
+    }
+
+    .cardapio3 {
+        width: 50vw;
     }
 }
 

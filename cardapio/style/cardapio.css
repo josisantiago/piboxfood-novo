@@ -189,6 +189,15 @@ footer > p {
     } 
 }
 
+@media (min-width: 1440px) {
+    .redes_link {
+        display: flex;
+        flex-direction: row;
+        padding: 4px;
+    }
+}
+
+
 /* MEDIA QUERIES DA NAV */
 @media (min-width: 500px) {
     .block-min-width-500 {

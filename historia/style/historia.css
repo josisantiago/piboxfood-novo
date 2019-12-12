@@ -64,6 +64,10 @@ nav {
     padding: 3px; 
 }
 
+/* .historia {
+    width:80%;
+} */
+
 .trajetoria-foto__imagem {
     width: 100vw;
     height: 480px;
@@ -204,8 +208,86 @@ footer > p {
     }
 
     .trajetoria-foto__imagem {
-        margin-left: -191px;
-        height: 656px;
+        width: 100vw;
+        height: 655px;
+        display: flex;
+        margin-left: -193px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .p_historia {
+    margin-top: 10px;
+    } 
+}
+
+@media (min-width: 1440px) {
+    .redes_link {
+        display: flex;
+        flex-direction: row;
+        padding: 4px;
+    }
+
+    .historia_trajetoria {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    /* .cta {
+        margin-bottom: 15%;
+    }
+
+    .p_cta-produtos {
+        padding: 20px;
+        margin-top: 24px;
+        text-align: center; 
+    } */
+
+    /* .logo2 {
+        display: none;
+    }
+    .cta {
+        margin-bottom: 15%;
+    } */
+
+    .p_cta-produtos {
+        padding: 20px;
+        margin-top: 24px;
+        text-align: center; 
+    }
+
+    /* .logo2 {
+        display: none;
+    } */
+    
+    .trajetoria-foto {
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+
+    .trajetoria-foto__imagem {
+        width: 100vw;
+        height: 655px;
+        display: flex;
+        margin-left: -193px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .p_historia {
+    margin-top: 10px;
+    } 
+}
+
+    .trajetoria-foto__imagem {
+        width: 100vw;
+        height: 655px;
+        display: flex;
+        margin-left: -193px;
     }
 
     h2 {
@@ -216,7 +298,8 @@ footer > p {
     margin-top: 10px;
     } 
 
-}
+
+
 
 @media (max-width: 540px) {
     .cta {
@@ -224,10 +307,10 @@ footer > p {
     }
 }
 
-@media (max-width: 440px) {
+/* @media (max-width: 440px) {
     .historia {
         width: 90%;
-    }
+    } */
 
     /* .trajetoria-foto__imagem {
          width: 384px;  
@@ -239,7 +322,7 @@ footer > p {
         font-size: 15px;
     } */
 
-    p {
+    /* p {
         margin: 0;
         color: #6b6a6a;
         padding-bottom: 16px;
@@ -258,20 +341,20 @@ footer > p {
 
     h3 {
         font-size: 17px;
-        }
+        } */
     
     /* .cta {
         margin-bottom: 30%;
     } */
 
-    .logo2 {
+    /* .logo2 {
         display: none;
     }
 
     footer > p {
         font-size: 10px;
     }
-}
+} */
 
 /* MEDIA QUERIES DA NAV */
 @media (min-width: 500px) {

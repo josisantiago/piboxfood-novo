@@ -167,6 +167,7 @@ nav {
     background-color: rgb(247, 247, 171);
     box-sizing: content-box;
     align-items: center;
+    /* border-top: 3px solid  yellow; */
 }
 
 .container {
@@ -174,7 +175,6 @@ nav {
     padding-top: 20px;
     width: 100vw;
     margin-right: 40px;
-    border-top: 3px solid yellow;
 }
 
 h2 {
@@ -209,6 +209,7 @@ p {
     width: 60%;
     border-radius: 10px;
     padding: -17px;
+    background-color: rgb(247, 247, 171);
 }
 
 footer {
@@ -229,6 +230,7 @@ footer > p {
 @media (min-width: 768px) {
     .carousel-item {
         height: 432px;
+        /* border-bottom: 3px solid  yellow;  */
     }
 
     .cta {
@@ -251,6 +253,7 @@ footer > p {
 
     .cardapio2 {
         height: 430px;
+        /* border-bottom: 3px solid  yellow;  */
     }
     .cardapio_opcoes {
         flex-direction: column;
@@ -278,11 +281,29 @@ footer > p {
 
 }
 
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
+    .navbar {
+        margin-left: 137px;
+    }
+
+    
     .redes_link {
         display: flex;
+        /* margin-right: 5px; */
         flex-direction: row;
         padding: 4px;
+    }
+    
+    .container_car-btn {
+        display: flex;
+        height: 262px;
+        margin-right: 274px;
+    }
+
+    .carousel-item {
+        /* border-bottom: 3px solid  yellow;  */
+        height: 238px;
+        object-fit: cover;
     }
     
     .cardapio_container {
@@ -292,11 +313,12 @@ footer > p {
     .cardapios {
         display: flex;
         flex-direction: row;
+        margin-top: 20px;
     }
 
     .botao_cardapio {
         width: 336px;
-        margin-top: 25px;
+        margin-top: -6px;
     }
 
     .cta-produtos {
@@ -305,10 +327,36 @@ footer > p {
 
     .cardapio2 {
         width: 50vw;
+        margin-top: 15px;
     }
 
     .cardapio3 {
         width: 50vw;
+    }
+
+    .cardapio_pagamento{
+        display: flex;
+        flex-direction: row;
+        margin-top: -57px;
+        /* border-top: 3px solid  yellow; 
+        border-bottom: 3px solid  yellow;  */
+    }
+
+    .container_mae {
+        height: 19vh;
+        margin-top: 127px;
+        flex-direction: column;
+        /* border-top: 3px solid  yellow; */
+
+    }
+    .container {
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    footer {
+        margin-top: 136px;
     }
 }
 

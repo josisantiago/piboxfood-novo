@@ -13,13 +13,13 @@ body {
     overflow-x: hidden;
 }
 
-nav {
-    border-bottom: 3px solid yellow;
-}
-
 .navbar {
     padding-bottom: 15px;
     margin-top: -38px; 
+}
+
+.cor_nav {
+    background-color: rgb(247, 223, 178);
 }
 
 .nav-link {
@@ -37,8 +37,6 @@ nav {
 
 .carousel-item {
     height: 205px;
-    object-fit: cover;
-    border-bottom: 3px solid  yellow; 
 }
 
 
@@ -96,16 +94,6 @@ nav {
     color: #ffffff;
 }
 
-/* .navbar-nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-} */
-
 #navbarNavAltMarkup img {
     width: 32px;
     padding: 3px; 
@@ -125,16 +113,8 @@ nav {
     width: 100vw;
     height: 302px;
     display: flex;
-    /* border-bottom: 3px solid  yellow; */
+    border-radius: 10px;
 }
-
-/*para colocar no 768
-/* .cardapio2 {
-    margin: 10px 0;
-    width: 50vw;
-    height: 282px;
-    display: flex;
-} */
 
 .cardapio3 {
     margin: 5px 5px;
@@ -163,17 +143,14 @@ nav {
 
 .container_mae {
     height: 25vh;   
-    width: 100vw;
-    background-color: rgb(247, 247, 171);
+    background-color: rgb(247, 223, 178);
     box-sizing: content-box;
     align-items: center;
-    /* border-top: 3px solid  yellow; */
 }
 
 .container {
     color: rgb(160, 7, 7);
     padding-top: 20px;
-    width: 100vw;
     margin-right: 40px;
 }
 
@@ -183,6 +160,7 @@ h2 {
     text-align: center;
     line-height: 2.5;
 }
+
 h3 {
     font-size: 1.4rem !important;
     }
@@ -204,12 +182,11 @@ p {
     font-size: 1.2rem;
 }
 
-
 .bandeiras {
     width: 60%;
     border-radius: 10px;
-    padding: -17px;
-    background-color: rgb(247, 247, 171);
+    padding: 20px;
+    margin-bottom: 50px
 }
 
 footer {
@@ -223,14 +200,13 @@ footer {
 footer > p {
     color: #212529;
     font-size: 10px;
-    }
+}
 
     /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
     .carousel-item {
         height: 432px;
-        /* border-bottom: 3px solid  yellow;  */
     }
 
     .cta {
@@ -253,8 +229,8 @@ footer > p {
 
     .cardapio2 {
         height: 430px;
-        /* border-bottom: 3px solid  yellow;  */
     }
+
     .cardapio_opcoes {
         flex-direction: column;
         display: flex;
@@ -269,10 +245,6 @@ footer > p {
         height: 200px;
     }
 
-    /* .cardapio_container {
-        flex-direction: row;
-    } */
-
     .trajetoria-foto {
         width: 50%;
         display: flex;
@@ -281,15 +253,9 @@ footer > p {
 
 }
 
-@media (max-width: 1440px) {
-    .navbar {
-        margin-left: 137px;
-    }
-
-    
+@media (min-width: 1240px) {  
     .redes_link {
         display: flex;
-        /* margin-right: 5px; */
         flex-direction: row;
         padding: 4px;
     }
@@ -301,11 +267,16 @@ footer > p {
     }
 
     .carousel-item {
-        /* border-bottom: 3px solid  yellow;  */
-        height: 238px;
+        height: 375px;
         object-fit: cover;
+        padding-top: 14px;
     }
     
+    .carouselExampleFade {
+        display: flex;
+        flex-direction: row;
+    }
+
     .cardapio_container {
         display: flex;
     }
@@ -313,12 +284,11 @@ footer > p {
     .cardapios {
         display: flex;
         flex-direction: row;
-        margin-top: 20px;
+        margin-top: -55px;
     }
 
     .botao_cardapio {
         width: 336px;
-        margin-top: -6px;
     }
 
     .cta-produtos {
@@ -327,7 +297,7 @@ footer > p {
 
     .cardapio2 {
         width: 50vw;
-        margin-top: 15px;
+        margin-top: 60px;
     }
 
     .cardapio3 {
@@ -338,21 +308,29 @@ footer > p {
         display: flex;
         flex-direction: row;
         margin-top: -57px;
-        /* border-top: 3px solid  yellow; 
-        border-bottom: 3px solid  yellow;  */
     }
 
     .container_mae {
         height: 19vh;
-        margin-top: 127px;
-        flex-direction: column;
-        /* border-top: 3px solid  yellow; */
-
+        margin-top: 130px;
+        width: 100%;
+        display: flex;
+        margin-bottom: -136px;
     }
+
     .container {
         width: 100%;
         margin: 0;
         box-sizing: border-box;
+        margin-top: 45px;
+    }
+
+    .bandeiras {
+        padding: 20px;
+    }
+
+    .formas {
+        margin-right: -472px
     }
 
     footer {

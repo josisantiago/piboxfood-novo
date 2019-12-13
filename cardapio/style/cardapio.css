@@ -17,6 +17,10 @@ nav {
     border-bottom: 3px solid yellow;
 }
 
+.cor_nav {
+    background-color: rgb(247, 223, 178);
+}
+
 .navbar {
     padding-bottom: 15px;
     margin-top: -38px;  
@@ -66,7 +70,7 @@ nav {
 .container_mae {
     height: 12vh;   
     width: 100vw;
-    background-color: rgb(247, 247, 171);
+    background-color: rgb(247, 223, 178);
     box-sizing: content-box;
     align-items: center;
 }
@@ -76,7 +80,6 @@ nav {
     padding-top: 20px;
     width: 100vw;
     margin-right: 40px;
-    /* border-top: 3px solid yellow; */
 }
 
 .cta {
@@ -92,7 +95,7 @@ h2 {
 
 h3 {
     font-size: 1.4rem !important;
-    }
+}
 
 p {
     font-size: 10px;
@@ -209,6 +212,7 @@ footer > p {
         width: 52%;
     }
 }
+
 /* MEDIA QUERIES DA NAV */
 @media (min-width: 500px) {
     .block-min-width-500 {

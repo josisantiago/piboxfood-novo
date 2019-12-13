@@ -23,6 +23,10 @@ nav {
    
 }
 
+.cor_nav {
+    background-color: rgb(247, 223, 178);
+}
+
 .nav-link {
     text-decoration: none;
     padding: 5px;
@@ -64,11 +68,6 @@ nav {
     padding: 3px; 
 }
 
-.trajetoria-foto__imagem {
-    height: 655px;
-    display: flex;
-}
-
 .cta {
     margin-top: 5%;
     margin-bottom: 10%;
@@ -101,22 +100,18 @@ nav {
     color: #ffffff;
 }
 
-
 .container_mae {
-    height: 25vh;   
+    height: 15vh;   
     width: 100vw;
-    background-color: rgb(247, 247, 171);
+    background-color: rgb(247, 223, 178);
     box-sizing: content-box;
     align-items: center;
 }
-
 
 .container {
     color: rgb(160, 7, 7);
     padding-top: 20px;
     width: 100vw;
-    margin-right: 40px;
-   
 }
 
 h2 {
@@ -125,6 +120,7 @@ h2 {
     text-align: center;
     line-height: 2.5;
 }
+
 h3 {
     font-size: 1.4rem !important;
     }
@@ -196,23 +192,18 @@ footer > p {
     }
     
     .historia_trajetoria {
-        flex-direction: column;
         margin-top: 5px;
     }
 
     .trajetoria-foto {
-        /* width: 100vw; */
+        width: 100vw;
         display: flex;
         align-items: center;
     }
 
-     .trajetoria-foto__imagem {
-        height: 650px;
-    } 
-
     .historia_trajetoria > p {
         font-size: 19px;
-        /* padding: 9px; */
+        padding: 9px;
         margin: 135px;
         margin-bottom: 20px;
         margin-top: 5px;
@@ -240,26 +231,24 @@ footer > p {
 
     .historia_trajetoria > p {
         font-size: 19px;
-        padding: 9px;
-        margin: 135px;
-        margin-bottom: 20px;
+        margin-bottom: -301px;
+        margin-left: 5px;
     }
 
     .historia_trajetoria > h2 {
-        margin-left: 139px;
-        margin-top: 33px;
+        margin-left: -289px;
+        margin-top: 20px;
     }
 
     .historia {
-        /* width: 50vw; */
+        width: 50vw;
         height: 781px;
         display: flex;
-        flex-direction: row;
     }
     
     .cta {
         margin-top: -204px;
-        margin-right: 751px;
+        margin-right: 56px;
     }
 
     .p_cta-produtos {
@@ -268,7 +257,7 @@ footer > p {
     }
 
     .trajetoria-foto {
-        /* width: 50vw; */
+        width: 50vw;
         display: flex;
     }
 
@@ -276,10 +265,8 @@ footer > p {
         font-size: 38px !important;
         margin-right: 127px;
     }
-}
 
     .trajetoria-foto__imagem {
-        height: 655px;
         display: flex;
         margin-top: 7px;
     }
@@ -289,7 +276,8 @@ footer > p {
     }
 
     .p_historia {
-    margin-top: 10px;
+        margin-top: 10px;
+        flex-direction: row;
     } 
 
     .container {
@@ -299,15 +287,14 @@ footer > p {
     .container_mae {
         margin-top: 8px;
         border-top: 3px solid yellow;
+        width:100%
     }
-
+}
 @media (max-width: 540px) {
     .cta {
         margin-bottom: 20%;
     }
 }
-
-
 
 /* MEDIA QUERIES DA NAV */
 @media (min-width: 500px) {

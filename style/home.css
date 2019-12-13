@@ -35,20 +35,21 @@ body {
     display: flex;
 }
 
+.carousel-inner {
+    margin: 8px;
+}
+
 .carousel-item {
-    height: 206px;
-    /* margin-top: 20px; */
-    padding-top: 53px;
-    /* align-items: center; */
-   
-    margin-left: -25px;
+    height: 206px;   
+    padding-top: 53px;  
 }
 
 .borda_img {
-    border-radius: 70px;
+    border-radius: 10px;
 }
+
 .fundo_car {
-    background-image: url(https://i.pinimg.com/564x/72/0a/58/720a58ad68a9d2e4c76aa55036e9754f.jpg);
+    background-image: url(https://i.pinimg.com/564x/72/0a/58/720a58ad68a9d2e4c76aa55036e9754f.jpg);  
 }
 
 .logo {
@@ -84,7 +85,7 @@ body {
 
 .cta-produtos {
     text-transform: uppercase;
-    background-color: rgb(160, 7, 7);
+    background-color: orange;
     border-radius: 5px;
     text-decoration: none;
     color: #ffffff;
@@ -100,7 +101,7 @@ body {
 }
 
 .cta-produtos:hover {
-    background-color: #36AC31;
+    background-color:rgb(245, 245, 122);
     text-decoration: none;
     color: #ffffff;
 }
@@ -121,10 +122,14 @@ body {
 }
 
 .cardapio2 {
-    width: 100vw;
-    height: 302px;
+    width: 94vw;
+    height: 301px;
     display: flex;
     border-radius: 10px;
+}
+
+.botao_cardapio {
+    width: 95vw;
 }
 
 .cardapio3 {
@@ -143,7 +148,7 @@ body {
 }
 
 .link {
-    background-color: rgb(160, 7, 7);
+    background-color: orange;
     text-transform: uppercase;
     border-radius: 5px;
     text-decoration: none;
@@ -177,7 +182,8 @@ h3 {
     }
 
 p {
-    font-size: 10px;
+    font-size: 11px;
+    margin-left: 15px;
 }
 
 .formas {
@@ -197,7 +203,7 @@ p {
     width: 60%;
     border-radius: 10px;
     padding: 20px;
-    margin-bottom: 50px
+    margin-bottom: 50px;
 }
 
 footer {
@@ -220,7 +226,10 @@ footer > p {
         height: 298px;
         margin-top: 20px;
         padding-top: 45px;
-        margin-left: -33px;
+    }
+
+    .carousel-inner {
+        margin: 8px;
     }
 
     .cta {
@@ -237,12 +246,20 @@ footer > p {
         text-align: center; 
     }
 
+    .formas {
+        margin-left: 155px;
+    }
+
     .logo2 {
         display: none;
     }
 
     .cardapio2 {
         height: 430px;
+        border-radius: 10px;
+        width: 77vw;
+        height: 433px;
+        margin-top: 10px;
     }
 
     .cardapio_opcoes {
@@ -252,11 +269,12 @@ footer > p {
     }
 
     .botao_cardapio {
-        margin-top: 135px;
+        margin-top: 155px;
     }
 
     .container_mae {
         height: 200px;
+        margin-top: 10px;
     }
 
     .trajetoria-foto {
@@ -273,6 +291,7 @@ footer > p {
         flex-direction: row;
         padding: 4px;
     }
+
     .container_car-btn {
         display: flex;
         height: 262px;
@@ -281,9 +300,9 @@ footer > p {
 
 
     .carousel-item {
-        height: 375px;
+        height: 468px;
         object-fit: cover;
-        padding-top: 19px;
+        padding-top: 38px;
     }
     
     .carouselExampleFade {
@@ -293,6 +312,7 @@ footer > p {
 
     .cardapio_container {
         display: flex;
+        height: 366px;
     }
     
     .cardapios {
@@ -310,8 +330,11 @@ footer > p {
     }
 
     .cardapio2 {
-        width: 50vw;
-        margin-top: 60px;
+        width: 38vw;
+        margin-top: 62px;
+        object-fit: contain;
+        object-position: center;
+        border-radius: 10px;
     }
 
     .cardapio3 {
@@ -325,11 +348,12 @@ footer > p {
     }
 
     .container_mae {
-        height: 19vh;
-        margin-top: 130px;
+        height: 36vh;
+        margin-top: 151px;
         width: 100%;
         display: flex;
         margin-bottom: -136px;
+        padding-left: 165px;
     }
 
     .container {
@@ -339,12 +363,26 @@ footer > p {
         margin-top: 45px;
     }
 
+    .logo2 {
+        width: 138px;
+        border-radius: 5px;
+        margin-top: 10px;
+        display: unset;
+        box-shadow: 7px 7px 7px 3px gray;
+    }
+
     .bandeiras {
         padding: 20px;
+        border-radius: 26px;
+    }
+
+    .contato {
+        margin-right: -40px;
     }
 
     .formas {
-        margin-right: -472px
+        margin-right: -218px;
+        margin-bottom: 0;
     }
 
     footer {

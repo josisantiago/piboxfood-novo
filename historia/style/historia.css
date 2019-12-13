@@ -20,7 +20,6 @@ nav {
 .navbar {
     padding-bottom: 15px;
     margin-top: -38px;
-   
 }
 
 .cor_nav {
@@ -78,7 +77,7 @@ nav {
 
 .cta-produtos {
     text-transform: uppercase;
-    background-color: rgb(160, 7, 7);
+    background-color: orange;
     border-radius: 5px;
     text-decoration: none;
     color: #ffffff;
@@ -90,19 +89,32 @@ nav {
 .p_cta-produtos {
     flex-direction: column;
     text-align: center;
-    margin-top: 24px;
-    text-align: center; 
+    margin-top: 120px;
 }
 
 .cta-produtos:hover {
-    background-color: #36AC31;
+    background-color: rgb(245, 245, 122);
     text-decoration: none;
     color: #ffffff;
 }
 
+#navbarNavAltMarkup img {
+    width: 32px;
+    padding: 3px; 
+}
+
+.link {
+    background-color: orange;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 8px;
+    text-align: center;
+}
+
 .container_mae {
     height: 15vh;   
-    width: 100vw;
     background-color: rgb(247, 223, 178);
     box-sizing: content-box;
     align-items: center;
@@ -111,11 +123,10 @@ nav {
 .container {
     color: rgb(160, 7, 7);
     padding-top: 20px;
-    width: 100vw;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 20px !important;
     color: rgb(160, 7, 7);
     text-align: center;
     line-height: 2.5;
@@ -123,10 +134,11 @@ h2 {
 
 h3 {
     font-size: 1.4rem !important;
-    }
+}
 
 p {
     font-size: 10px;
+    margin-left: 15px;
 }
 
 .p_historia {
@@ -153,8 +165,10 @@ p {
 }
 
 .bandeiras {
-    width: 67%;
+    width: 60%;
     border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: -13px;
 }
 
 .contato_pagamento {
@@ -172,8 +186,8 @@ footer {
 
 footer > p {
     color: #212529;
+    font-size: 10px;
 }
-
 
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
@@ -186,6 +200,9 @@ footer > p {
         margin-top: 24px;
         text-align: center; 
     }
+    /* .formas {
+        margin-left: 155px;
+    } */
 
     .logo2 {
         display: none;
@@ -216,6 +233,22 @@ footer > p {
     .p_historia {
     margin-top: 10px;
     } 
+
+    .bandeiras {
+        width: 50%;
+        border-radius: 10px;
+        margin-bottom: 50px;
+        margin-top: -13px;
+    }
+
+    .formas {
+        color: rgb(160, 7, 7);
+        line-height: 1.0;
+        width: 40vw;
+        font-size: 17px;
+        font-weight: 500;
+        margin-left: 65px;
+    }
 }
 
 @media (min-width: 1240px) {
@@ -223,6 +256,7 @@ footer > p {
         display: flex;
         flex-direction: row;
         padding: 4px;
+        margin-left: 700px;
     }
 
     .historia_trajetoria {
@@ -231,24 +265,22 @@ footer > p {
 
     .historia_trajetoria > p {
         font-size: 19px;
-        margin-bottom: -301px;
         margin-left: 5px;
     }
 
-    .historia_trajetoria > h2 {
-        margin-left: -289px;
-        margin-top: 20px;
-    }
-
     .historia {
-        width: 50vw;
-        height: 781px;
+        width: 85vw;
         display: flex;
     }
     
     .cta {
         margin-top: -204px;
         margin-right: 56px;
+    }
+
+    .cta-produtos {
+        margin-left: 101px;
+        margin-top: -38px;
     }
 
     .p_cta-produtos {
@@ -281,15 +313,50 @@ footer > p {
     } 
 
     .container {
-        padding-top: 27px;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        margin-top: 45px;
     }
 
     .container_mae {
-        margin-top: 8px;
-        border-top: 3px solid yellow;
-        width:100%
+        height: 42vh;
+        margin-top: 188px;
+        width: 100%;
+        display: flex;
+        margin-bottom: -136px;
+        padding-left: 165px;
+    }
+
+    .logo2 {
+        width: 138px;
+        border-radius: 5px;
+        margin-top: 10px;
+        display: unset;
+        box-shadow: 7px 7px 7px 3px gray;
+    }
+
+    .bandeiras {
+        padding: 20px;
+        border-radius: 26px;
+    }
+
+    .contato {
+        margin-right: -40px;
+    }
+
+    .formas {
+        margin-right: -54px;
+        margin-bottom: 0;
+        margin-left: -31px;
+    }
+
+    footer {
+        margin-top: 136px;
     }
 }
+
+
 @media (max-width: 540px) {
     .cta {
         margin-bottom: 20%;

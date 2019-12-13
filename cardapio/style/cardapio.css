@@ -67,12 +67,18 @@ nav {
     padding: 3px; 
 }
 
+.trajetoria-foto__imagem {
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px 3px gray;
+}
+
 .container_mae {
     height: 12vh;   
     width: 100vw;
     background-color: rgb(247, 223, 178);
     box-sizing: content-box;
     align-items: center;
+    border-top: 3px solid  yellow;
 }
 
 .container {
@@ -122,6 +128,10 @@ p {
 .contato_pagamento {
     display: flex;
     justify-content: space-between;
+}
+
+.contato {
+    margin-right: -40px;
 }
 
 footer {
@@ -198,18 +208,63 @@ footer > p {
         padding: 4px;
     }
     
+
     .trajetoria-foto__imagem {
         align-items: center;
         display: flex;
+        margin-bottom: -151px;
+    }
+
+    .trajetoria {
+        height: auto;
     }
 
     .container_mae {
-        height: 20vh;  
-        border-top: 3px solid  yellow;
+        height: 36vh;
+        margin-top: 151px;
+        width: 100%;
+        display: flex;
+        margin-bottom: -136px;
+        padding-left: 165px;
+    }
+
+   .container {
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        margin-top: 45px;
+    }
+
+    .logo2 {
+        width: 138px;
+        border-radius: 5px;
+        margin-top: 10px;
+        display: unset;
+        box-shadow: 7px 7px 7px 3px gray;
     }
 
     .bandeiras {
-        width: 52%;
+        padding: 26px;
+        border-radius: 46px;
+        margin-bottom: 40px;
+        height: 163px;
+    }
+
+    .contato {
+        margin-right: -40px;
+    }
+
+    .formas {
+        margin-right: 41px;
+        margin-bottom: 0;
+    }
+
+    footer {
+        margin-top: 136px;
+    }
+
+    .cardapio-pagamento {
+        margin: 0 0 0 152px;
     }
 }
 

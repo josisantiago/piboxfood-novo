@@ -9,6 +9,7 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <title>PiBox Food - Refeiçoes Saudáveis</title>
   <link rel="stylesheet" href="style/cardapio.css">
+  <link rel="stylesheet" href="../style/home.css">
   <link rel="stylesheet" href="../style/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 </head>
@@ -22,7 +23,7 @@
   </div>
   <nav class="navbar navbar-expand-lg navbar-light cor_nav d-flex">
     <div class="size-80">
-      <img class="logo" src="./img/logo.jpg" alt="Logo da PiBox Food">
+      <img class="logo img-fluid" src="./img/logo.jpg" alt="Logo da PiBox Food">
     </div>
     <div class="size-20 text-center">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -48,7 +49,7 @@
       </div>
     </div>
   </nav>
-  <section class="historia">
+  <section class="historia back">
     <div class="trajetoria">
       <div class="trajetoria-foto img-fluid">
         <img class="trajetoria-foto__imagem img-fluid" src="./img/card1.jpg" alt="opções de cardápio" />
@@ -62,8 +63,10 @@
             <img class="trajetoria-foto__imagem img-fluid" src="./img/card3.jpg" alt="opções de cardápio" />
           </div>
         </div>
+      </div>
+    </div>
   </section>
-  <section class="container_mae text-white d-lg-flex text-center">
+  <section class="container_mae container-fluid text-white d-lg-flex text-center">
     <div class="container d-flex">
       <section class="d-flex">
         <div class="col-2">
@@ -71,19 +74,16 @@
         </div>
         <div class="w-100"></div>
       </section>
-      <container class="contato_pagamento">
-        <div class="contato">
-          <div class="col-2"></div>
-          <h3>Contato</h3>
-          <p>email:piboxfood@gmail.com</p>
-          <p>Tel:55(11)94585-2566</p>
-        </div>
-        <div class="w-100"></div>
-        <div class="pagamento">
-          <p class="formas">Formas de pagamento</p>
-          <img class="bandeiras" src="./img/bandeiras.jpeg" alt="Bandeiras das formas de pagamento">
-        </div>
-      </container>
+      <div class="contato">
+        <div class="col-2"></div>
+        <h3>Contato</h3>
+        <p>email:piboxfood@gmail.com</p>
+        <p>Tel:55(11)94585-2566</p>
+      </div>
+      <div class="pagamento text-center">
+        <p class="pagamento cardapio-pagamento text-center formas d-flex">Formas de pagamento</p>
+        <img class="bandeiras img-fluid" src="./img/bandeiras.jpeg" alt="Bandeiras das formas de pagamento">
+      </div>
     </div>
   </section>
   <footer class="text-center">

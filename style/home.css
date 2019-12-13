@@ -36,9 +36,20 @@ body {
 }
 
 .carousel-item {
-    height: 205px;
+    height: 206px;
+    /* margin-top: 20px; */
+    padding-top: 53px;
+    /* align-items: center; */
+   
+    margin-left: -25px;
 }
 
+.borda_img {
+    border-radius: 70px;
+}
+.fundo_car {
+    background-image: url(https://i.pinimg.com/564x/72/0a/58/720a58ad68a9d2e4c76aa55036e9754f.jpg);
+}
 
 .logo {
     width: 116px;
@@ -206,7 +217,10 @@ footer > p {
 
 @media (min-width: 768px) {
     .carousel-item {
-        height: 432px;
+        height: 298px;
+        margin-top: 20px;
+        padding-top: 45px;
+        margin-left: -33px;
     }
 
     .cta {
@@ -259,17 +273,17 @@ footer > p {
         flex-direction: row;
         padding: 4px;
     }
-    
     .container_car-btn {
         display: flex;
         height: 262px;
         margin-right: 274px;
     }
 
+
     .carousel-item {
         height: 375px;
         object-fit: cover;
-        padding-top: 14px;
+        padding-top: 19px;
     }
     
     .carouselExampleFade {
